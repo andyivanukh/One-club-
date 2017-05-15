@@ -1,0 +1,60 @@
+/* line 4, ../sass/screen.sass */
+html {
+  height: 100%;
+}
+
+/* line 7, ../sass/screen.sass */
+body {
+  min-width: 320px;
+  height: 100%;
+}
+
+/* line 11, ../sass/screen.sass */
+ol, ul {
+  list-style-type: none;
+}
+
+/* line 14, ../sass/screen.sass */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
+/* line 22, ../sass/screen.sass */
+a, a:hover {
+  text-decoration: none;
+}
+
+/* line 25, ../sass/screen.sass */
+a:focus {
+  outline: none;
+}
+
+/* line 28, ../sass/screen.sass */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 33, ../sass/screen.sass */
+.clearfix {
+  clear: both;
+}
+
+/*==========  Desktop First Method  ========== */
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ========== */
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
